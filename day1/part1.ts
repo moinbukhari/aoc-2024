@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const input = fs.readFileSync('./part1.txt', 'utf8');
+const input = fs.readFileSync('./day1.txt', 'utf8');
 
 const transpose = (matrix: number[][]): number[][] => {
 	return matrix[0].map((_, colIndex) => matrix.map((row) => row[colIndex]));
